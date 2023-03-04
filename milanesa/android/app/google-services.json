@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "292263705293",
+    "project_id": "milanesa-f93a6",
+    "storage_bucket": "milanesa-f93a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292263705293:android:91db1122607a063d134784",
+        "android_client_info": {
+          "package_name": "com.example.milanesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292263705293-v5bi4bk4adhvjkjo3k8ohl4gr2j9h0o8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.milanesa",
+            "certificate_hash": "9215d27690ec8c260a6e70c9ad9a82d31ed9bd90"
+          }
+        },
+        {
+          "client_id": "292263705293-gr9n9e9fi5npfaqbq2a9q2a2ne4qeuoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYH_AmHyaYd9RUpUv2oaouspcAuJ4yTZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292263705293-gr9n9e9fi5npfaqbq2a9q2a2ne4qeuoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

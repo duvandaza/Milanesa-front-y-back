@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  milanesa-backend-products:
+    container_name: backend-products
+    build: ../..
+    image: milanesa/products:1.0.0
+    restart: always
+    networks:
+      - milanesa
+    environment:
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      PORT: ${PORT}
+
+
+
+networks:
+  milanesa:
+    driver: bridge
+    external: true
